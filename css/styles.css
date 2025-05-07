@@ -1,8 +1,8 @@
 body {
-  color: #2a2a2a;
-  background-color: #fafafa;
-  font-family: "roboto" sans-serif;
-  font-weight: 400;
+  color: #2e2f42;
+  background-color: E5E5E5;
+  font-family: "roboto", sans-serif;
+
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
@@ -13,21 +13,114 @@ ol {
   list-style-type: none;
 }
 h1 {
-  font-family: "roboto" sans-serif;
   font-weight: 700;
   font-size: 56px;
-  letter-spacing: 2%;
-  line-height: 60px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
 }
 h2 {
-  font-family: "roboto" sans-serif;
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 2%;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
-h3 {
-  font-family: "roboto" sans-serif;
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+#studio-header {
+  color: #2e2f42;
+}
+#studio-footer {
+  color: #f4f4fd;
+}
+
+.menu > li > a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: currentColor;
+}
+.contacts > li > a {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+  font-style: normal;
+}
+.hero {
+  background-color: #2e2f42;
+}
+.button-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.about-text > li > p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.team {
+  background: #f4f4fd;
+}
+.team > ul > li > h3 {
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
+.team > ul > li > p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+.portfolio > li > h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio > li > p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+footer {
+  background-color: #2e2f42;
+}
+.last-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+/* --iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+} */
