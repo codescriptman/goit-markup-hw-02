@@ -42,9 +42,20 @@ ol {
 .menu > li > a:hover {
   color: #404bbf;
 }
+.menu-studio {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.menu-studio:hover {
+  color: #404bbf;
+}
 .menu-studio:active {
   color: #404bbf;
-  text-decoration: underline;
+}
+.menu-studio:focus {
+  color: #404bbf;
 }
 .contacts {
   font-style: normal;
@@ -59,6 +70,9 @@ ol {
   color: #404bbf;
 }
 .contact-links:active {
+  color: #404bbf;
+}
+.contact-links:focus {
   color: #404bbf;
 }
 .hero {
@@ -82,10 +96,20 @@ ol {
 .button-text:hover {
   background-color: #404bbf;
 }
+.button-text:focus {
+  background-color: #404bbf;
+}
 .button-text:active {
   background-color: #404bbf;
 }
 .about-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.mini-titles {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -108,7 +132,7 @@ ol {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.team-list > li {
+.team-list {
   background-color: #ffffff;
 }
 .team-names {
