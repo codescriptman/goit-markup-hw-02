@@ -3,7 +3,7 @@ body {
   background-color: E5E5E5;
   font-family: "roboto", sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 2%;
 }
 
@@ -52,12 +52,22 @@ h2 {
   text-decoration: none;
   color: currentColor;
 }
+.menu > li > a:hover {
+  color: #404bbf;
+}
+#menu-studio:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
 .contacts > li > a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
   font-style: normal;
+}
+.contacts > li > a:hover {
+  color: #404bbf;
 }
 .hero {
   background-color: #2e2f42;
@@ -109,17 +119,3 @@ footer {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-
-/* --iris: #4d5ae5;
-	--ocean: #404bbf;
-	--navy-blue: #2e2f42;
-	--green: #31d0aa;
-	--slate: #434455;
-	--light-slate: #8e8f99;
-	--cornflower: #e7e9fc;
-	--cloud: #f4f4fd;
-	--navy-blue-modal: rgba(46, 47, 66, 0.4);
-	--grey: rgba(46, 47, 66, 0.7);
-	--white: #fff;
-	--dairy: #fcfcfc;
-} */
